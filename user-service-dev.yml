@@ -10,9 +10,10 @@ spring:
           enabled: true
           lower-case-service-id: true
     consul:
+      host: localhost
+      port: 8500
+      enabled: true
       discovery:
-        hostname: localhost
-        port: 8500
         health-check-interval: 15s
 
 
