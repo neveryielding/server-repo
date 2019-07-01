@@ -15,6 +15,7 @@ spring:
       discovery:
         health-check-interval: 15s
         health-check-path: /actuator/health
+        service-name: user-service
         heartbeat:
           enabled: true
 

@@ -9,11 +9,12 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
-    cconsul:
+    consul:
       host: localhost
       port: 8500
       discovery:
         health-check-interval: 15s
         health-check-path: /actuator/health
+        service-name: user-service
         heartbeat:
           enabled: true
